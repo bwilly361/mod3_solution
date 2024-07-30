@@ -3,30 +3,44 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <nav class="navbar" id="topNav">
     <div class="container-fluid">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">FOOD TEST</a>
+        </div> 
+    </div>
+
+    <div class="collapse" id="myNavbar">
+        <ul class="nav navbar-nav visible-xs">
+            <li><a class="list-item" href="#">Chicken</a></li>
+            <li><a class="list-item" href="#">Beef</a></li>
+            <li><a class="list-item" href="#">Sushi</a></li>
+        </ul>
     </div>
 </nav>
     <h1>Our Menu</h1>
     <div class="row">
-        <div class="box1 box1L box1M">
+        <div class="box1 box1L box1M col-lg-4 col-md-6 col-sm-12">
             <p class="box1header">Chicken</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, possimus voluptatibus praesentium aspernatur nisi consectetur eius explicabo, impedit ratione esse eligendi saepe autem cupiditate quam odio tenetur? Voluptatem, doloremque laudantium?</p>
         </div>
-        <div class="box2 box2L box2M">
+        <div class="box2 box2L box2M col-lg-4 col-md-6 col-sm-12">
             <p class="box2header box2headerL">Beef</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum est aut eaque sapiente. Quod unde tenetur laudantium voluptatum provident dignissimos excepturi. Tenetur doloribus hic quaerat, pariatur officiis ullam modi neque.</p>
         </div>
-        <div class="box3 box3L box3M">
+        <div class="box3 box3L box3M col-lg-4 col-md-6 col-sm-12">
             <p class="box3header box3headerL">Sushi</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad itaque non, dignissimos nostrum quaerat repellat harum officia. Voluptatum eligendi vitae non, modi odit neque. Nobis ipsam voluptate ab suscipit cumque!</p>
         </div>
